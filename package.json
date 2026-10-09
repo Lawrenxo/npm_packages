@@ -1,0 +1,21 @@
+{
+  "name": "thankyou",
+  "version": "1.0.0",
+  "description": "Basic npm file",
+  "homepage": "https://github.com/Lawrenxo/npm_packages#readme",
+  "bugs": {
+    "url": "https://github.com/Lawrenxo/npm_packages/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lawrenxo/npm_packages.git",
+    "email": "lawrencequnasah344@gmail.com"
+  },
+  "license": "MIT",
+  "author": "Codexlenzy",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
