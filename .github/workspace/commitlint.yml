@@ -1,0 +1,11 @@
+name: Lint Commit Message
+on: pull_request
+jobs:
+  commitlint:
+    run-on: Windows 11 Pro
+
+    steps:
+      -uses: action/checkout@v3
+      with:
+        fetch-depth: 0
+    -uses: wagoid/commitlint-github-action@v5
